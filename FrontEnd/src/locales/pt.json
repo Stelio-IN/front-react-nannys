@@ -1,0 +1,398 @@
+{
+  "header": {
+    "home": "Início",
+    "dashboard": "Meu Painel",
+    "logout": "Sair",
+    "joinAsNanny": "Juntar-se como Babá",
+    "joinAsClient": "Juntar-se como Cliente",
+    "contactUs": "Fale Conosco",
+    "signIn": "Entrar"
+  },
+  "footer": {
+    "contactUs": "Fale Conosco",
+    "terms": "Termos e Condições",
+    "faqs": "Perguntas Frequentes",
+    "serviceFee": "Taxa de Serviço",
+    "placesToVisit": "Lugares para Visitar",
+    "travelTips": "Dicas de Viagem",
+    "copyright": {
+      "text": "&copy; 2024 Express Nanny.",
+      "allRightsReserved": "Todos os Direitos Reservados."
+    }
+  },
+  "contactPage": {
+    "header": {
+      "title": "Fale Conosco",
+      "description": "Tem perguntas sobre nossos serviços de babá em Moçambique? Estamos aqui para ajudá-lo a encontrar a solução perfeita para o cuidado infantil."
+    },
+    "contactInfo": {
+      "title": "Entre em Contato",
+      "phone": {
+        "label": "Telefone",
+        "numbers": [
+          "+258 84 123 4567",
+          "+258 86 987 6543"
+        ]
+      },
+      "email": {
+        "label": "Email",
+        "addresses": [
+          "info@expressnannies.co.mz",
+          "support@expressnannies.co.mz"
+        ]
+      },
+      "location": {
+        "label": "Localização do Escritório",
+        "details": [
+          "Av. Julius Nyerere, 257",
+          "Maputo, Moçambique"
+        ]
+      },
+      "hours": {
+        "label": "Horário de Funcionamento",
+        "details": [
+          "Segunda - Sexta: 8:00 - 18:00",
+          "Sábado: 9:00 - 14:00"
+        ]
+      }
+    },
+    "form": {
+      "title": "Envie-nos uma Mensagem",
+      "fields": {
+        "name": "Seu Nome",
+        "email": "Endereço de Email",
+        "subject": "Assunto",
+        "message": "Mensagem"
+      },
+      "submitButton": "Enviar Mensagem",
+      "successMessage": "Email enviado com sucesso!",
+      "errorMessage": "Erro ao enviar o email. Por favor, tente novamente."
+    },
+    "map": {
+      "title": "Nossa Localização"
+    }
+  },
+  "loginPage": {
+    "title": "Entrar",
+    "email": {
+      "label": "E-mail",
+      "placeholder": "seu@email.com"
+    },
+    "password": {
+      "label": "Senha",
+      "placeholder": "********"
+    },
+    "button": "Entrar",
+    "forgotPassword": "Esqueceu sua senha?",
+    "error": "Ocorreu um erro ao tentar fazer login"
+  },
+  "form": {
+    "registrationTitle": "Formulário de Cadastro de Cliente",
+    "registrationSubtitle": "Preencha o formulário para começar sua busca",
+    "personalInformation": "Informações Pessoais",
+    "firstName": "Primeiro Nome",
+    "lastName": "Último Nome",
+    "email": "E-mail",
+    "idNumber": "Número de ID",
+    "country": "País",
+    "province": "Província",
+    "uploadId": "Carregar Cópia de ID",
+    "selectFile": "Selecione um arquivo",
+    "namePattern": "O nome deve conter pelo menos 3 letras e apenas caracteres alfabéticos.",
+    "idPattern": "O ID deve ter 12 dígitos seguidos de uma letra (BI) ou 2 letras seguidas de 7 números (Passaporte).",
+    "selectCountry": "Selecione um país",
+    "selectProvince": "Selecione uma província",
+    "loadingProvinces": "Carregando províncias...",
+    "uploadError": "Por favor, faça o upload de um arquivo.",
+    "registrationSuccess": "Cliente registrado com sucesso! Acesse o seu perfil usando o seu email e Id usado cadastro",
+    "registrationError": "Erro ao registrar cliente. Tente novamente mais tarde.",
+    "register": "Cadastrar"
+  },
+  "expressNannies": {
+    "heroTitle": "Express Nannies",
+    "heroDescription": "Bem-vindo ao Express Nannies, sua plataforma confiável para encontrar babás temporárias em Moçambique. Se você é um turista aproveitando uma noite fora, um expatriado precisando de suporte temporário ou um pai cuja babá está indisponível, estamos aqui para proporcionar tranquilidade com cuidadores experientes e verificados.",
+    "trustedCaregiversTitle": "Nossos Cuidadores Confiáveis",
+    "trustedCaregiversDescription": "Descubra nossa comunidade diversificada de babás experientes, prontas para fornecer um cuidado excepcional para seus filhos."
+  },
+  "NannyRegistrationForm": {
+    "title": "Junte-se à nossa equipe de babás confiáveis",
+    "personal_info": "Informações Pessoais",
+    "first_name": "Nome",
+    "last_name": "Sobrenome",
+    "first_name_placeholder": "Nome",
+    "last_name_placeholder": "Sobrenome",
+    "first_name_title": "O nome deve conter pelo menos 3 letras e apenas caracteres alfabéticos.",
+    "last_name_title": "O sobrenome deve conter pelo menos 3 letras e apenas caracteres alfabéticos.",
+    "date_of_birth": "Data de Nascimento",
+    "email": "Email",
+    "select_country": "Selecione o País",
+    "select_province": "Selecione a Província",
+    "id_number": "Número de ID/Passaporte",
+    "id_number_placeholder": "Número de ID ou Passaporte",
+    "id_number_title": "O ID deve conter 12 dígitos seguidos por uma letra (BI) ou 2 letras seguidas por 7 dígitos (Passaporte).",
+    "id_copy": "Cópia do ID",
+    "education": "Educação e Qualificações",
+    "education_level": "Nível de Educação",
+    "select_education": "Selecione o Nível de Educação",
+    "none": "Nenhum",
+    "high_school_student": "Estudante de Ensino Médio",
+    "high_school_incomplete": "Ensino Médio Incompleto",
+    "high_school_complete": "Ensino Médio Completo",
+    "technical_student": "Estudante Técnico ou Universitário",
+    "technical_graduate": "Formado Técnico",
+    "university_graduate": "Formado Universitário",
+    "submit_button": "Enviar Inscrição",
+    "age_error": "Você precisa ter 18 anos ou mais para se registrar.",
+    "submit_error": "Falha ao enviar inscrição. Tente novamente.",
+    "success_message": "Cadastro realizado com sucesso! Acesse o seu perfil usando o seu email e Id usado cadastro"
+  },
+  "ClientDashboard": {
+    "welcome_message": "Bem-vindo, {{first_name}}!",
+    "overview": "Visão Geral",
+    "search": "Procurar uma Babá",
+    "favorites": "Requerimentos",
+    "reservations": "Reservas",
+    "loading_message": "Carregando perfil do cliente...",
+    "error_message": "Erro ao carregar dados do cliente. Tente novamente.",
+    "section_buttons": {
+      "dashboard": "Início",
+      "find_a_nanny": "Encontrar uma Babá",
+      "requeriments": "Requerimentos",
+      "reservations": "Reservas"
+    },
+    "profile_picture_uploader": {
+      "title": "Atualize sua Foto de Perfil",
+      "upload_success_message": "Foto atualizada com sucesso!"
+    }
+  },
+  "dashboard": {
+    "welcome": "Bem-vindo, {{name}}!",
+    "overview": "Painel",
+    "profile": "Perfil",
+    "jobs": "Empregos",
+    "qualifications": "Qualificações",
+    "submit": "Enviar",
+    "personal_details": "Detalhes Pessoais",
+    "availability_experience": "Disponibilidade & Experiência",
+    "background_check": "Verificação de Antecedentes",
+    "work_preferences": "Preferências de Trabalho",
+    "languages": "Idiomas & Informações Adicionais",
+    "additional_information": "Por favor, compartilhe qualquer outra informação relevante",
+    "file_upload": "Por favor, faça o upload de uma cópia da sua autorização policial:"
+  },
+  "reservation":{   
+      "clientReservations": "Reservas de Clientes",
+      "noReservations": "Nenhuma reserva disponível",
+      "nannyEmail": "E-mail da babá: ",
+      "status": "Status: ",
+      "paidAmount": "Valor Pago: R$",
+      "cancelReservation": "Cancelar Reserva",
+      "choosePaymentMethod": "Escolha o Método de Pagamento",
+      "payWithPaypal": "Pagar com PayPal",
+      "payWithMpesa": "Pagar com M-Pesa",
+      "total": "Total:",
+      "leaveFeedback": "Deixar Feedback",
+      "writeComment": "Escreva seu comentário aqui...",
+      "rating": "Classificação:",
+      "submitFeedback": "Enviar Feedback",
+      "previous": "Anterior",
+      "next": "Próximo",
+      "page": "Página",
+      "start": "Início",
+    "end": "Fim"
+  },
+  "favorites": {
+    "clientRequests": "Pedidos dos Clientes",
+    "noRequests": "Nenhum pedido disponível",
+    "start": "Início",
+    "end": "Fim",
+    "notes": "Notas:",
+    "noNotes": "Sem notas",
+    "cancelRequest": "Cancelar Pedido",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "pageOf": "Página {{currentPage}} de {{totalPages}}"
+  },
+  "search": {
+    "findANanny": "Encontrar uma Babá",
+    "country": "País",
+    "selectCountry": "Selecionar País",
+    "province": "Província",
+    "selectProvince": "Selecionar Província",
+    "availability": "Disponibilidade",
+    "selectAvailability": "Selecionar Disponibilidade",
+    "fullTime": "Integral",
+    "temporary": "Temporário",
+    "searchNannies": "Buscar Babás",
+    "previous": "Anterior",
+    "next": "Próximo",
+    "errorFetchingData":"Nenhuma babá encontrada com essas caracteristicas",
+    "pleaseSelectFields":"Por favor selecione todos campos"
+  },
+    "nannyCard": {
+      "viewComments": "Ver Todos os Comentários e Avaliações",
+      "contact": "Contato",
+      "noLanguagesAvailable": "Nenhum idioma disponível",
+      "noCommentsAvailable": "Nenhum comentário disponível.",
+      "close": "Fechar",
+      "numberOfChildren": "Número de Crianças",
+      "startDate": "Data de Início",
+      "endDate": "Data de Término",
+      "notes": "Notas",
+      "submitRequest": "Enviar Solicitação",
+      "rate": "Avaliar",
+      "currency": "Moeda",
+      "dailySalary": "Diária",
+      "monthlySalary": "Mensal",
+      "dateOfBirth": "Data de Nascimento"
+    },
+    "overview": {
+  "quickStats": "Estatísticas Rápidas",
+"totalPaidReservations": "Total de reservas pagas",
+"changeEmailAndPassword": "Alterar E-mail e Senha",
+"email": "E-mail",
+"emailPlaceholder": "Seu endereço de e-mail",
+"currentPassword": "Senha Atual",
+"currentPasswordPlaceholder": "Digite sua senha atual",
+"newPassword": "Nova Senha",
+"newPasswordPlaceholder": "Digite sua nova senha",
+"updatePassword": "Atualizar Senha",
+"contactInformation": "Informações de Contato",
+"saving": "Salvando...",
+"save": "Salvar",
+"phoneInstructions": "Por favor, atualize seu número de contato abaixo. Certifique-se de que o formato inclua o código do país.",
+"phone": "Número de Telefone",
+"phonePlaceholder": "Ex.: +1 (555) 000-0000",
+"errorLoadingProfile": "Erro ao carregar o perfil do usuário.",
+"phoneUpdated": "Número de telefone atualizado com sucesso!",
+"failedPhoneUpdate": "Falha ao atualizar o número de telefone.",
+"fillAllFields": "Por favor, preencha todos os campos.",
+"passwordUpdated": "Senha atualizada com sucesso!",
+"errorUpdatingPassword": "Houve um erro ao atualizar a senha."
+  },
+  
+    "dashboard-nanny": {
+      "title": "Bem-vindo, {{name}}!",
+      "description": "Aqui está um resumo do seu perfil de babá e oportunidades."
+    },
+    "profile-nanny": {
+      "personalDetails": "Detalhes Pessoais",
+      "name": "Nome",
+      "email": "Email",
+      "location": "Localização",
+      "education": "Educação",
+      "dateOfBirth": "Data de Nascimento",
+      "jobType": "Tipo de Trabalho",
+      "availabilityAndExperience": "Disponibilidade e Experiência",
+      "experience": "Experiência",
+      "yearsOfExperience": "Anos de Experiência",
+      "backgroundCheck": "Verificação de Antecedentes",
+      "policeClearance": "Você possui uma certidão de antecedentes criminais?",
+      "uploadPoliceClearance": "Por favor, envie uma cópia do seu atestado de antecedentes criminais:",
+      "additionalInfo": "Informações Adicionais",
+      "submit": "Enviar",
+      "none": "Nenhuma",
+      "yes": "Sim",
+      "no": "Não"
+    },
+    "sidebar-nanny": {
+      "profilePicture": "Foto de Perfil",
+      "uploadSuccess": "Foto atualizada com sucesso!",
+      "educationLevel": "Nível de Educação",
+      "dashboard": "Dashboard",
+      "profile": "Perfil",
+      "jobs": "Trabalhos",
+      "qualifications": "Qualificações"
+    },
+    "error-nanny": {
+      "profileFetch": "Erro ao buscar o perfil. Tente novamente.",
+      "updateProfile": "Falha ao atualizar perfil. Tente novamente."
+    },
+    "NannyQuickStats":
+    {
+      "professionalOverview": "Visão Profissional",
+      "completedJobs": "Trabalhos Concluídos",
+      "currency": "Moeda",
+      "monthlySalary": "Salário Mensal",
+      "dailySalary": "Salário Diário",
+      "phoneNumber": "Número de Telefone",
+      "availability": "Disponibilidade",
+      "pending": "Pendente",
+      "approved": "Aprovado",
+      "rejected": "Rejeitado",
+      "professionalSummary": "Resumo Profissional",
+      "changePassword": "Alterar Senha",
+      "currentPassword": "Senha Atual",
+      "newPassword": "Nova Senha",
+      "email": "E-mail",
+      "errorPasswordLength": "A nova senha deve ter pelo menos 8 caracteres.",
+      "passwordUpdateSuccess": "Senha alterada com sucesso.",
+      "passwordUpdateError": "Ocorreu um erro ao atualizar a senha. Tente novamente mais tarde."
+    },
+    
+      "contactInformation-nanny": {
+        "title": "Informações de Contato",
+        "phonePlaceholder": "+1 (555) 000-0000",
+        "saveButton": "Salvar"
+      },
+      "location-nanny": {
+        "title": "Localização",
+        "countryLabel": "País",
+        "provinceLabel": "Província",
+        "saveButton": "Salvar"
+      },
+      "salaryInformation-nanny": {
+        "title": "Informações Salariais",
+        "currencyLabel": "Moeda",
+        "monthlySalaryLabel": "Salário Mensal",
+        "dailySalaryLabel": "Salário Diário",
+        "saveButton": "Salvar"
+      },
+      "languages-nanny": {
+        "title": "Idiomas",
+        "assignedLanguagesLabel": "Idiomas Atribuídos",
+        "addLanguageLabel": "Adicionar Idioma",
+        "removeButton": "Remover",
+        "addButton": "Adicionar Idioma"
+      },
+      "loading-nanny": "Carregando...",
+      "messages": {
+        "success": "Informações atualizadas com sucesso",
+        "error": "Falha ao atualizar informações"
+      },
+      "BabysittingRequestManager": {
+        "title": "Solicitações de Serviço de Babysitting",
+        "newRequests": "Novas Solicitações",
+        "approvedRequests": "Solicitações Aprovadas",
+        "applyFilter": "Aplicar Filtro",
+        "noNewRequests": "Não há novas solicitações",
+        "noApprovedReservations": "Não há reservas aprovadas",
+        "startDate": "Data de Início",
+        "endDate": "Data de Término",
+        "numberOfPeople": "Número de Pessoas",
+        "address": "Endereço",
+        "email": "E-mail",
+        "note": "Observação",
+        "enterServiceValue": "Digite o valor do serviço",
+        "approve": "Aprovar",
+        "reject": "Rejeitar",
+        "cancel": "Cancelar",
+        "finalize": "Finalizar",
+        "serviceValue": "Valor do Serviço",
+        "status": "Status",
+        "pending": "Pendente",
+        "approved": "Aprovado",
+        "rejected": "Rejeitado",
+        "confirmationApprove": "Tem certeza de que deseja aprovar esta solicitação?",
+        "confirmationReject": "Tem certeza de que deseja rejeitar esta solicitação?",
+        "confirmationCancel": "Tem certeza de que deseja cancelar esta reserva?",
+        "invalidValue": "Por favor, insira um valor válido para o serviço.",
+        "requestFor":"Solicitção para"
+      }
+    
+    
+    
+  
+  
+  
+}

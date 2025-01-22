@@ -1,0 +1,394 @@
+{
+  "header": {
+    "home": "Home",
+    "dashboard": "My Dashboard",
+    "logout": "Logout",
+    "joinAsNanny": "Join as Nanny",
+    "joinAsClient": "Join as Client",
+    "contactUs": "Contact Us",
+    "signIn": "Sign in"
+  },
+  "footer": {
+    "contactUs": "Contact Us",
+    "terms": "Terms & Conditions",
+    "faqs": "FAQs",
+    "serviceFee": "Service Fee",
+    "placesToVisit": "Places to Visit",
+    "travelTips": "Travel Tips",
+    "copyright": {
+      "text": "&copy; 2024 Express Nanny.",
+      "allRightsReserved": "All Rights Reserved."
+    }
+  },
+    "contactPage": {
+      "header": {
+        "title": "Contact Us",
+        "description": "Have questions about our nanny services in Mozambique? We're here to help you find the perfect childcare solution."
+      },
+      "contactInfo": {
+        "title": "Get in Touch",
+        "phone": {
+          "label": "Phone",
+          "numbers": [
+            "+258 84 123 4567",
+            "+258 86 987 6543"
+          ]
+        },
+        "email": {
+          "label": "Email",
+          "addresses": [
+            "info@expressnannies.co.mz",
+            "support@expressnannies.co.mz"
+          ]
+        },
+        "location": {
+          "label": "Office Location",
+          "details": [
+            "Av. Julius Nyerere, 257",
+            "Maputo, Mozambique"
+          ]
+        },
+        "hours": {
+          "label": "Business Hours",
+          "details": [
+            "Monday - Friday: 8:00 AM - 6:00 PM",
+            "Saturday: 9:00 AM - 2:00 PM"
+          ]
+        }
+      },
+      "form": {
+        "title": "Send Us a Message",
+        "fields": {
+          "name": "Your Name",
+          "email": "Email Address",
+          "subject": "Subject",
+          "message": "Message"
+        },
+        "submitButton": "Send Message",
+        "successMessage": "Email sent successfully!",
+        "errorMessage": "Error sending the email. Please try again."
+      },
+      "map": {
+        "title": "Our Location"
+      }
+    },
+    "loginPage": {
+      "title": "Login",
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "password": {
+        "label": "Password",
+        "placeholder": "********"
+      },
+      "button": "Log In",
+      "forgotPassword": "Forgot your password?",
+      "error": "An error occurred during login"
+    },
+    "form": {
+    "registrationTitle": "Client Registration Form",
+    "registrationSubtitle": "Fill out the form to start your search",
+    "personalInformation": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "idNumber": "ID Number",
+    "country": "Country",
+    "province": "Province",
+    "uploadId": "Upload ID Copy",
+    "selectFile": "Select a file",
+    "namePattern": "Name must contain at least 3 letters and only alphabetic characters.",
+    "idPattern": "ID must have 12 digits followed by a letter (BI) or 2 letters followed by 7 digits (Passport).",
+    "selectCountry": "Select a country",
+    "selectProvince": "Select a province",
+    "loadingProvinces": "Loading provinces...",
+    "uploadError": "Please upload a file.",
+    "registrationSuccess": "Client successfully registered! Access your profile using your email and ID used to register",
+    "registrationError": "Error registering client. Please try again later.",
+    "register": "Register"
+  },
+  "expressNannies": {
+    "heroTitle": "Express Nannies",
+    "heroDescription": "Welcome to Express Nannies, your trusted platform for finding reliable temporary nannies in Mozambique. Whether you're a tourist enjoying a night out, an expat in need of temporary support, or a parent whose nanny is unavailable, we're here to provide peace of mind with vetted, experienced caregivers.",
+    "trustedCaregiversTitle": "Our Trusted Caregivers",
+    "trustedCaregiversDescription": "Discover our diverse community of experienced nannies ready to provide exceptional care for your children."
+  },
+  "NannyRegistrationForm": {
+    "title": "Join Our Trusted Nanny Team",
+    "personal_info": "Personal Information",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "first_name_placeholder": "First Name",
+    "last_name_placeholder": "Last Name",
+    "first_name_title": "The first name must contain at least 3 letters and only alphabetic characters.",
+    "last_name_title": "The last name must contain at least 3 letters and only alphabetic characters.",
+    "date_of_birth": "Date of Birth",
+    "email": "Email",
+    "select_country": "Select Country",
+    "select_province": "Select Province",
+    "id_number": "ID/Passport",
+    "id_number_placeholder": "ID or Passport Number",
+    "id_number_title": "The ID must contain 12 digits followed by a letter (BI) or 2 letters followed by 7 digits (Passport).",
+    "id_copy": "ID Copy",
+    "education": "Education & Qualifications",
+    "education_level": "Education Level",
+    "select_education": "Select Education Level",
+    "none": "None",
+    "high_school_student": "High School Student",
+    "high_school_incomplete": "High School Incomplete",
+    "high_school_complete": "High School Graduate",
+    "technical_student": "Technical or University Student",
+    "technical_graduate": "Technical Graduate",
+    "university_graduate": "University Graduate",
+    "submit_button": "Submit Application",
+    "age_error": "You must be 18 years or older to register.",
+    "submit_error": "Failed to submit registration. Please try again.",
+    "success_message": "Registration completed successfully! Access your profile using your email and ID used to register"
+  },
+  "ClientDashboard": {
+    "welcome_message": "Welcome, {{first_name}}!",
+    "overview": "Overview",
+    "search": "Find a Nanny",
+    "favorites": "Requirements",
+    "reservations": "Reservations",
+    "loading_message": "Loading client profile...",
+    "error_message": "Error loading client data. Please try again.",
+    "section_buttons": {
+      "dashboard": "Home",
+      "find_a_nanny": "Find a Nanny",
+      "requeriments": "Requirements",
+      "reservations": "Reservations"
+    },
+    "profile_picture_uploader": {
+      "title": "Update Your Profile Picture",
+      "upload_success_message": "Profile picture updated successfully!"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}!",
+    "overview": "Dashboard",
+    "profile": "Profile",
+    "jobs": "Jobs",
+    "qualifications": "Qualifications",
+    "submit": "Submit",
+    "personal_details": "Personal Details",
+    "availability_experience": "Availability & Experience",
+    "background_check": "Background Check",
+    "work_preferences": "Work Preferences",
+    "languages": "Languages & Additional Information",
+    "additional_information": "Please share any other relevant information",
+    "file_upload": "Please upload a copy of your police clearance:"
+  },
+  "reservation":{
+  "clientReservations": "Client Reservations",
+  "noReservations": "No reservations available",
+  "nannyEmail": "Nanny's e-mail: ",
+  "status": "Status: ",
+  "paidAmount": "Paid Amount: $",
+  "cancelReservation": "Cancel Reservation",
+  "choosePaymentMethod": "Choose Payment Method",
+  "payWithPaypal": "Pay with PayPal",
+  "payWithMpesa": "Pay with M-Pesa",
+  "total": "Total:",
+  "leaveFeedback": "Leave Feedback",
+  "writeComment": "Write your comment here...",
+  "rating": "Rating:",
+  "submitFeedback": "Submit Feedback",
+  "previous": "Previous",
+  "next": "Next",
+  "page": "Page",
+  "start": "Start",
+    "end": "End"
+},
+  "favorites": {
+    "clientRequests": "Client Requests",
+    "noRequests": "No requests available",
+    "start": "Start",
+    "end": "End",
+    "notes": "Notes:",
+    "noNotes": "No notes",
+    "cancelRequest": "Cancel Request",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {{currentPage}} of {{totalPages}}"
+  },
+  "search": {
+    "findANanny": "Find a Nanny",
+    "country": "Country",
+    "selectCountry": "Select Country",
+    "province": "Province",
+    "selectProvince": "Select Province",
+    "availability": "Availability",
+    "selectAvailability": "Select Availability",
+    "fullTime": "Full-time",
+    "temporary": "Temporary",
+    "searchNannies": "Search Nannies",
+    "previous": "Previous",
+    "next": "Next",
+    "errorFetchingData":"No nanny found with these characteristics",
+    "pleaseSelectFields":"Please select all fields"
+  },
+  "nannyCard": {
+    "viewComments": "View All Comments and Ratings",
+    "contact": "Contact",
+    "noLanguagesAvailable": "No languages available",
+    "noCommentsAvailable": "No comments available.",
+    "close": "Close",
+    "numberOfChildren": "Number of Children",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "notes": "Notes",
+    "submitRequest": "Submit Request",
+    "rate": "Rate",
+    "currency": "Currency",
+    "dailySalary": "Daily",
+    "monthlySalary": "Monthly",
+    "dateOfBirth": "Date of birth"
+  },
+  "overview": {
+   "quickStats": "Quick Stats",
+    "totalPaidReservations": "Total of paid reservations",
+    "changeEmailAndPassword": "Change Email and Password",
+    "email": "Email",
+    "emailPlaceholder": "Your email address",
+    "currentPassword": "Current Password",
+    "currentPasswordPlaceholder": "Enter your current password",
+    "newPassword": "New Password",
+    "newPasswordPlaceholder": "Enter your new password",
+    "updatePassword": "Update Password",
+    "contactInformation": "Contact Information",
+    "saving": "Saving...",
+    "save": "Save",
+    "phoneInstructions": "Please update your contact number below. Ensure the format includes the country code.",
+    "phone": "Phone Number",
+    "phonePlaceholder": "E.g., +1 (555) 000-0000",
+    "errorLoadingProfile": "Error loading user profile.",
+    "phoneUpdated": "Phone number updated successfully!",
+    "failedPhoneUpdate": "Failed to update phone number.",
+    "fillAllFields": "Please fill in all fields.",
+    "passwordUpdated": "Password updated successfully!",
+    "errorUpdatingPassword": "There was an error updating the password."
+  },
+  
+    "dashboard-nanny": {
+      "title": "Welcome, {{name}}!",
+      "description": "Here's an overview of your nanny profile and opportunities."
+    },
+    "profile-nanny": {
+      "personalDetails": "Personal Details",
+      "name": "Name",
+      "email": "Email",
+      "location": "Location",
+      "education": "Education",
+      "dateOfBirth": "Date of Birth",
+      "jobType": "Job Type",
+      "availabilityAndExperience": "Availability & Experience",
+      "experience": "Experience",
+      "yearsOfExperience": "Years of Experience",
+      "backgroundCheck": "Background Check",
+      "policeClearance": "Do you have a police clearance?",
+      "uploadPoliceClearance": "Please upload a copy of your police clearance:",
+      "additionalInfo": "Additional Information",
+      "submit": "Submit",
+      "none": "None",
+      "yes": "Yes",
+      "no": "No"
+    },
+    "sidebar-nanny": {
+      "profilePicture": "Profile Picture",
+      "uploadSuccess": "Profile picture uploaded successfully!",
+      "educationLevel": "Education Level",
+      "dashboard": "Dashboard",
+      "profile": "Profile",
+      "jobs": "Jobs",
+      "qualifications": "Qualifications"
+    },
+    "error-nanny": {
+      "profileFetch": "Error fetching profile. Please try again.",
+      "updateProfile": "Failed to update profile. Please try again."
+    },
+    "NannyQuickStats":
+    {
+      "professionalOverview": "Professional Overview",
+      "completedJobs": "Completed Jobs",
+      "currency": "Currency",
+      "monthlySalary": "Monthly Salary",
+      "dailySalary": "Daily Salary",
+      "phoneNumber": "Phone Number",
+      "availability": "Availability",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "professionalSummary": "Professional Summary",
+      "changePassword": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "email": "Email",
+      "errorPasswordLength": "The new password must be at least 8 characters long.",
+      "passwordUpdateSuccess": "Password updated successfully.",
+      "passwordUpdateError": "There was an error updating the password. Please try again later."
+    },
+    "contactInformation-nanny": {
+      "title": "Contact Information",
+      "phonePlaceholder": "+1 (555) 000-0000",
+      "saveButton": "Save"
+    },
+    "location-nanny": {
+      "title-nanny": "Location",
+      "countryLabel": "Country",
+      "provinceLabel": "Province",
+      "saveButton": "Save"
+    },
+    "salaryInformation-nanny": {
+      "title": "Salary Information",
+      "currencyLabel": "Currency",
+      "monthlySalaryLabel": "Monthly Salary",
+      "dailySalaryLabel": "Daily Salary",
+      "saveButton": "Save"
+    },
+    "languages-nanny": {
+      "title": "Languages",
+      "assignedLanguagesLabel": "Assigned Languages",
+      "addLanguageLabel": "Add Language",
+      "removeButton": "Remove",
+      "addButton": "Add Language"
+    },
+    "loading-nanny": "Loading...",
+    "messages": {
+      "success": "Information updated successfully",
+      "error": "Failed to update information"
+    },
+    "BabysittingRequestManager": {
+    "title": "Babysitting Service Requests",
+    "newRequests": "New Requests",
+    "approvedRequests": "Approved Requests",
+    "applyFilter": "Apply Filter",
+    "noNewRequests": "No new requests available",
+    "noApprovedReservations": "No approved reservations",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "numberOfPeople": "Number of People",
+    "address": "Address",
+    "email": "Email",
+    "note": "Note",
+    "enterServiceValue": "Enter service value",
+    "approve": "Approve",
+    "reject": "Reject",
+    "cancel": "Cancel",
+    "finalize": "Finalize",
+    "serviceValue": "Service Value",
+    "status": "Status",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "confirmationApprove": "Are you sure you want to approve this request?",
+    "confirmationReject": "Are you sure you want to reject this request?",
+    "confirmationCancel": "Are you sure you want to cancel this reservation?",
+    "invalidValue": "Please enter a valid service value.",
+     "requestFor":"Request for"
+  }
+    
+  
+  
+}
